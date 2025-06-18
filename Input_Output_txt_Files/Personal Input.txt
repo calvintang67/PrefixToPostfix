@@ -1,0 +1,22 @@
+             
+   
+                 
+              
+       
++ABC 1 DEF
+* AB         CD        E   F G
++ -            */       AB
+# AB CDE  ###   F G H
+*$A&B+C-D+ EF
+$*-A+BC3+D-EF  
+*$-ABC+DEF+G   
+*^A+BC-D+EF  
++*-AB/CD $EF
+-$A/BC+DE
+*-/      AB          C         D					
+						
+				
+					
+					
+	
+

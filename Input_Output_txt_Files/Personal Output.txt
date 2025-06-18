@@ -1,0 +1,46 @@
+Prefix to Postfix conversions from Test Case file: Personal Input.txt
+
+1. Given prefix expression: +ABC 1 DEF
+Simplified prefix expression: +ABC1DEF
+Converted postfix expression: Error: Numerical character found in prefix expression.
+
+2. Given prefix expression: * AB         CD        E   F G
+Simplified prefix expression: *ABCDEFG
+Converted postfix expression: Error: Prefix expression contains excessive operands.
+
+3. Given prefix expression: + -            */       AB
+Simplified prefix expression: +-*/AB
+Converted postfix expression: Error: Prefix expression contains excessive operators.
+
+4. Given prefix expression: # AB CDE  ###   F G H
+Simplified prefix expression: #ABCDE###FGH
+Converted postfix expression: Error: Prefix expression holds special characters.
+
+5. Given prefix expression: *$A&B+C-D+ EF
+Simplified prefix expression: *$A&B+C-D+EF
+Converted postfix expression: Error: Prefix expression holds special characters.
+
+6. Given prefix expression: $*-A+BC3+D-EF
+Simplified prefix expression: $*-A+BC3+D-EF
+Converted postfix expression: Error: Numerical character found in prefix expression.
+
+7. Given prefix expression: *$-ABC+DEF+G
+Simplified prefix expression: *$-ABC+DEF+G
+Converted postfix expression: Error: Prefix expression contains excessive operands.
+
+8. Given prefix expression: *^A+BC-D+EF
+Simplified prefix expression: *^A+BC-D+EF
+Converted postfix expression: Error: Prefix expression holds special characters.
+
+9. Given prefix expression: +*-AB/CD $EF
+Simplified prefix expression: +*-AB/CD$EF
+Converted postfix expression: AB-CD/*EF$+
+
+10. Given prefix expression: -$A/BC+DE
+Simplified prefix expression: -$A/BC+DE
+Converted postfix expression: ABC/$DE+-
+
+11. Given prefix expression: *-/      AB          C         D
+Simplified prefix expression: *-/ABCD
+Converted postfix expression: AB/C-D*
+

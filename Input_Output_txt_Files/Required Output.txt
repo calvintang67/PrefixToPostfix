@@ -1,0 +1,46 @@
+Prefix to Postfix conversions from Test Case file: Required Input.txt
+
+1. Given prefix expression: -+ABC
+Simplified prefix expression: -+ABC
+Converted postfix expression: AB+C-
+
+2. Given prefix expression: -A+BC
+Simplified prefix expression: -A+BC
+Converted postfix expression: ABC+-
+
+3. Given prefix expression: $+-ABC+D-EF
+Simplified prefix expression: $+-ABC+D-EF
+Converted postfix expression: AB-C+DEF-+$
+
+4. Given prefix expression: -*A$B+C-DE*EF
+Simplified prefix expression: -*A$B+C-DE*EF
+Converted postfix expression: ABCDE-+$*EF*-
+
+5. Given prefix expression: **A+BC+C-BA
+Simplified prefix expression: **A+BC+C-BA
+Converted postfix expression: ABC+*CBA-+*
+
+6. Given prefix expression: /A+BC +C*BA
+Simplified prefix expression: /A+BC+C*BA
+Converted postfix expression: Error: Prefix expression contains excessive operands.
+
+7. Given prefix expression: *-*-ABC+BA
+Simplified prefix expression: *-*-ABC+BA
+Converted postfix expression: Error: Prefix expression contains excessive operators.
+
+8. Given prefix expression: /+/A-BC-BA
+Simplified prefix expression: /+/A-BC-BA
+Converted postfix expression: Error: Prefix expression contains excessive operators.
+
+9. Given prefix expression: *$A+BC+C-BA
+Simplified prefix expression: *$A+BC+C-BA
+Converted postfix expression: ABC+$CBA-+*
+
+10. Given prefix expression: //A+B0-C+BA
+Simplified prefix expression: //A+B0-C+BA
+Converted postfix expression: Error: Numerical character found in prefix expression.
+
+11. Given prefix expression: *$A^BC+C-BA
+Simplified prefix expression: *$A^BC+C-BA
+Converted postfix expression: Error: Prefix expression holds special characters.
+
